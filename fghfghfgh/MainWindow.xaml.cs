@@ -78,7 +78,6 @@ namespace fghfghfgh
                 MainPanel.Children.Add(Panels[i]);
             }
 
-
             Button btn = new Button();
             btn.Content = "Ok";
             btn.Width = 85;
@@ -92,6 +91,7 @@ namespace fghfghfgh
 
         void timer_Tick(object sender, EventArgs e)
         {
+            //Если истекает время, принудительно завершаем тест
             if (time == 0)
             {
                 BeforeCheckedMethod();
