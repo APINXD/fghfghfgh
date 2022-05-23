@@ -1,0 +1,19 @@
+﻿<Window x:Class="fghfghfgh.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:fghfghfgh"
+        mc:Ignorable="d"
+        Title="Login" Height="400" Width="400">
+    <Grid>
+
+        <Button x:Name="bth_log" Content="Login" HorizontalAlignment="Left" Margin="88,331,0,0" VerticalAlignment="Top" Height="20" Width="42" Click="bth_log_Click"/>
+        <Button x:Name="btn_reg" Content="Registration" HorizontalAlignment="Left" Margin="185,331,0,0" VerticalAlignment="Top" Height="20" Width="72" Click="btn_reg_Click"/>
+        <TextBox x:Name="text_name" HorizontalAlignment="Left" Margin="88,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
+        <TextBox x:Name="text_pass" HorizontalAlignment="Left" Margin="88,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,212,0,0" Text="Name" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,257,0,0" Text="Password" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
