@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:fghfghfgh"
         mc:Ignorable="d"
         Title="Registration" Height="350" Width="250">
-    <Grid>
+    <Grid Background="Aqua">
         <TextBox x:Name="text_age" HorizontalAlignment="Left" Margin="62,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="text_pass" HorizontalAlignment="Left" Margin="62,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBlock HorizontalAlignment="Left" Margin="0,117,0,0" Text="Name" TextWrapping="Wrap" VerticalAlignment="Top"/>
