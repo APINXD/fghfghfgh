@@ -6,14 +6,14 @@
         xmlns:local="clr-namespace:fghfghfgh"
         mc:Ignorable="d"
         Title="Login" Height="400" Width="400">
-    <Grid>
+    <Grid Background="LightPink">
 
-        <Button x:Name="bth_log" Content="Login" HorizontalAlignment="Left" Margin="88,331,0,0" VerticalAlignment="Top" Height="20" Width="42" Click="bth_log_Click"/>
-        <Button x:Name="btn_reg" Content="Registration" HorizontalAlignment="Left" Margin="185,331,0,0" VerticalAlignment="Top" Height="20" Width="72" Click="btn_reg_Click"/>
-        <TextBox x:Name="text_name" HorizontalAlignment="Left" Margin="88,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
+        <Button x:Name="bth_log" Background="AliceBlue" Content="Login" HorizontalAlignment="Left" Margin="88,331,0,0" VerticalAlignment="Top" Height="20" Width="42" Click="bth_log_Click" Foreground="#FF1C7BEE"/>
+        <Button x:Name="btn_reg" Background="AliceBlue" Content="Registration" HorizontalAlignment="Left" Margin="185,331,0,0" VerticalAlignment="Top" Height="20" Width="72" Click="btn_reg_Click" Foreground="#FF1C7BEE"/>
+        <TextBox x:Name="text_name" HorizontalAlignment="Left" Margin="88,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169" />
         <TextBox x:Name="text_pass" HorizontalAlignment="Left" Margin="88,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,212,0,0" Text="Name" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,257,0,0" Text="Password" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,212,0,0" Text="Name" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF1C7BEE"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,257,0,0" Text="Password" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF1C7BEE"/>
 
     </Grid>
 </Window>
